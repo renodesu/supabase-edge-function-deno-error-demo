@@ -4,6 +4,9 @@
 
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 
+// Importing something from graphql-yoga causes the error
+import { createYoga } from "https://cdn.skypack.dev/graphql-yoga?dts";
+
 console.log("Hello from Functions!");
 
 serve(async (req) => {
