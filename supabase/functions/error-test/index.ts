@@ -3,6 +3,6 @@
 // This enables autocomplete, go to definition, etc.
 
 // Importing something from graphql-yoga causes the error
-// import { createYoga } from "https://cdn.skypack.dev/graphql-yoga?dts";
+import { createYoga } from "https://cdn.skypack.dev/graphql-yoga?dts";
 
 console.log("Hello from Functions!");
